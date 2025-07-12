@@ -1,3 +1,4 @@
+# This snippet was made by nspg911 and I personalize it (AKA: I have no idea what I'm doing)
 # Before:
 
 <img width="603" height="394" alt="Screenshot 2025-07-11 214142" src="https://github.com/user-attachments/assets/86b5142f-e83b-4f8f-b762-f89ba1e4b305" />

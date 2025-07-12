@@ -1,4 +1,6 @@
-# This snippet was made by nspg911 and I personalize it (AKA: I have no idea what I'm doing)
+This snippet idea was originally by [nspg911](https://github.com/nspg911), and I personalized it (AKA: I have no idea what I'm doing).  
+*(Repo: [NSPG911](https://github.com/NSPG911))*
+
 # Before:
 
 <img width="603" height="394" alt="Screenshot 2025-07-11 214142" src="https://github.com/user-attachments/assets/86b5142f-e83b-4f8f-b762-f89ba1e4b305" />

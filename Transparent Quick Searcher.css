@@ -1,0 +1,100 @@
+/**
+ * @name Transparent Quick Searcher
+ * @author AcheronX.
+ * @description Make quick Searcher transparent fit with theme. https://github.com/Gg2jdjdjdwi.
+ * @version 0.0.1
+ * @source https://github.com/Gg2jdjdjdwi
+ */
+
+/* 🎨 QuickSwitcher container */
+.quickswitcher_ac6cb0 {
+  background: transparent !important;
+  padding: 10px;
+  background-color: rgba(85, 83, 83, 0.151) !important;
+  backdrop-filter: blur(20px);
+  border-radius: 15px !important;
+  overflow: hidden !important;
+}
+
+/* 🎨 Inherit background for all children */
+.quickswitcher_ac6cb0 > * {
+  background: inherit !important;
+  background-color: inherit !important;
+}
+
+/* 📜 Scroll area styling */
+.scroller_ac6cb0 {
+  border-radius: 12px;
+  overflow: hidden;
+  transform: translateX(1px);
+  width: 99.6%; 
+  height: 90%; 
+  border: 2px solid rgba(255, 255, 255, 0.089); /* subtle border */
+  box-sizing: border-box; /* include border in size */
+}
+
+/* ✍️ Input box styling */
+.input_ac6cb0 {
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.089); /* subtle border */
+  box-sizing: border-box; /* include border in size */
+}
+
+/* 🟦 Rounded corners for empty input */
+.input_ac6cb0[value=""] {
+  border-radius: 12px !important;
+}
+
+/* 🟧 Rounded top corners when filled */
+.input_ac6cb0:not([value=""]) {
+  border-radius: 12px 12px 0 0 !important;
+}
+
+/* 🚫 Hide protip */
+.protip_ac6cb0 {
+  display: none;
+}
+
+/* 🗂 Result item style */
+.result__71961 {
+  border-radius: 8px !important;
+  margin: 5px 0 !important;
+  background-color: rgba(59, 33, 133, 0.137) !important; /* channel highlight */
+  color: inherit;
+}
+
+/* ✨ Hover effect for results */
+.result__71961:hover {
+  background: linear-gradient(
+    to right,
+    rgba(87, 45, 133, 0.6) 0%,
+    rgba(45, 52, 139, 0.8) 50%,
+    rgba(87, 45, 133, 0.6) 100%
+  ) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+/* 📝 Add right padding to avoid scrollbar overlap */
+.content__99f8c,
+.content__71961 {
+  padding-right: 10px !important;
+  box-sizing: border-box;
+}
+
+/* 🏷 Set height & line-height for content */
+.content__99f8c > div:not(.result__71961):not([aria-hidden="true"]) > .content__71961 {
+  height: 20px;
+  line-height: 20px;
+}
+
+/* 📏 Adjust header line spacing */
+.content__99f8c > div:not(.result__71961):not([aria-hidden="true"]) > .content__71961 > .header__71961 {
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+/* 👻 Hide backdrop opacity when QuickSwitcher layer present */
+.backdrop__1a911:has(+ .layer_bc663c .quickswitcher_ac6cb0) {
+  opacity: 0;
+}

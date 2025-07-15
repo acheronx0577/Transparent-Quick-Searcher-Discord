@@ -192,7 +192,7 @@ Scroll down to find `BetterDiscord → Themes`:
 
 - If you want easy step then copy this to Quick CSS:
 ```css
-@import url("https://raw.githubusercontent.com/Gg2jdjdjwi/Transparent-Quick-Search-Discord/main/Transparent%20Quick%20Searcher.css");
+@import url("https://raw.githubusercontent.com/Gg2jdjdjwi/Transparent-Quick-Search-Discord/main/Transparent%20Quick%20Switcher.css");
 ```
 
 ---

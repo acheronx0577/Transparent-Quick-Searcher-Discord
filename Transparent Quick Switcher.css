@@ -7,6 +7,16 @@
  * @website https://github.com/acheronx0577
  */
 
+/* 🪟 Modal Container Styling */  
+[data-mana-component="modal"].container__53cea {  
+    clip-path: inset(0px 0 0px 0) !important; /* ✂️ Remove top/bottom clipping */  
+    border-radius: 15px; /* 🔵 Soft rounded edges */  
+    
+    /* 📏 Reset padding to match clip changes */  
+    padding-top: 0 !important;  
+    padding-bottom: 0 !important;  
+}  
+
 /* 🎨 QuickSwitcher container */
 .quickswitcher_ac6cb0 {
   background: transparent !important;

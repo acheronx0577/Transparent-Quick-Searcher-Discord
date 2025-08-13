@@ -46,7 +46,7 @@ You can find high-quality themes and CSS snippets from the following trusted sou
 - 🎨 [VSThemes (kindly refresh page again when access denied by click the link and press enter)](https://vsthemes.org/en/skins/discord/)
 - 🎨 [BetterDiscord Themes](https://betterdiscord.app/themes)
 - 🎨 [BDEditor Themes](https://bdeditor.dev)
-- 🧩 [My Custom CSS Collection (Verified)](https://github.com/Gg2jdjdjwi)
+- 🧩 [My Custom CSS Collection (Verified)](https://github.com/acheronx0577?tab=repositories)
 
 > For custom CSS files, you can safely download from my GitHub repository above. These are either self-made or verified, and used widely across the community.  
 > ⚠️ Always use themes at your own risk, especially if obtained from outside official communities discord server.
@@ -130,7 +130,7 @@ You can find high-quality themes and CSS snippets from the following trusted sou
 - 🎨 [VSThemes (kindly refresh page again when access denied by click the link and press enter)](https://vsthemes.org/en/skins/discord/)
 - 🎨 [BetterDiscord Themes](https://betterdiscord.app/themes)
 - 🎨 [BDEditor Themes](https://bdeditor.dev)
-- 🧩 [My Custom CSS Collection (Verified)](https://github.com/Gg2jdjdjwi)
+- 🧩 [My Custom CSS Collection (Verified)](https://github.com/acheronx0577?tab=repositories)
 
 > For custom CSS files, you can safely download from my GitHub repository above. These are either self-made or verified, and used widely across the community.  
 > ⚠️ Always use themes at your own risk, especially if obtained from outside official communities.

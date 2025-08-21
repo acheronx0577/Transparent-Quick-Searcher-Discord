@@ -165,6 +165,49 @@
     }
 }
 
+/* 🟦 Outer sidebar container */
+.sidebarList_c48ade,
+.sidebarListRounded_c48ade {
+    border-radius: 0 !important;
+}
+
+/* 🔍 Search bar container */
+.searchBar__35e86 {
+    background-color: rgba(0, 0, 0, 0.205) !important;
+    box-shadow: none !important;
+}
+
+/* 🔘 Search button in sidebar */
+.searchBar__35e86 .button__201d5 {
+background: linear-gradient(
+    to right,
+    rgba(87, 45, 133, 0.3) 0%,        /* More transparent */
+    rgba(45, 52, 139, 0.5) 50%,       /* More transparent */
+    rgba(87, 45, 133, 0.3) 100%       /* More transparent */
+) !important;    
+    transition: all 0.2s ease !important;
+    border-radius: 7px !important;
+}
+
+/* ✨ Search button hover effect in sidebar */
+.searchBar__35e86 .button__201d5:hover {
+    background: linear-gradient(
+        to right,
+        rgba(87, 45, 133, 0.6) 0%,
+        rgba(45, 52, 139, 0.8) 50%,
+        rgba(87, 45, 133, 0.6) 100%
+    ) !important;
+    color: rgb(255, 255, 255) !important;
+    transform: translateY(-0.5px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+/* 📝 Button contents */
+.contents__201d5 {
+    background-color: transparent !important;
+}
+
+
+
 
 
 

@@ -44,25 +44,12 @@
   box-sizing: border-box;
 }
 
-/* 💡 Empty state box: rounded, blurred, and centered */
-.emptyState_ac6cb0 {
-  margin-top: 15px;
-  min-height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.7;
-
-  border-radius: 12px;
-  padding: 10px 20px;
-  background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(8px);
-}
 
 
 /* ✍️ Input box styling */
 .input_ac6cb0 {
   height: 50px;
+  top: 2.5px;
   border: 2px solid rgba(255, 255, 255, 0.089);
   box-sizing: border-box;
   border-radius: 12px !important; /* 🔧 Always keep it rounded */
@@ -116,3 +103,70 @@
 .backdrop__1a911:has(+ .layer_bc663c .quickswitcher_ac6cb0) {
   opacity: 0;
 }
+
+.resultsArea_ac6cb0 {
+    border-radius: 12px !important;
+    clip-path: inset(15.5px 1px 9.5px 1px round 12px) !important;
+    overflow: hidden !important;
+    
+}
+
+/* 🔍 Show protip with fade-in effect */
+.protip_ac6cb0.hasContent_ac6cb0 {
+    display: block !important;
+    opacity: 0;
+    animation: fadeInProtip 0.5s ease-in-out 0.3s forwards !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    margin-top: 2px !important;
+    clip-path: inset(0.8px 0 0 0) !important;
+}
+
+/* ✨ Protip text styling */
+.pro__30cbe {
+    color: var(--text-feedback-positive) !important;
+    font-weight: 600 !important;
+}
+
+.tip__30cbe {
+    color: var(--text-muted) !important;
+    opacity: 0.9 !important;
+}
+
+/* 🎨 Autocomplete symbols */
+.autocompleteQuerySymbol_ac6cb0 {
+    background: rgba(88, 101, 242, 0.2) !important;
+    border-radius: 4px !important;
+    padding: 2px 6px !important;
+    margin: 0 2px !important;
+    border: 1px solid rgba(88, 101, 242, 0.3) !important;
+    font-weight: 600 !important;
+}
+
+/* 🔗 Learn more link */
+.anchor_edefb8 {
+    color: var(--text-link) !important;
+    text-decoration: none !important;
+}
+
+.anchorUnderlineOnHover_edefb8:hover {
+    text-decoration: underline !important;
+}
+
+/* 🎬 Fade-in animation */
+@keyframes fadeInProtip {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
